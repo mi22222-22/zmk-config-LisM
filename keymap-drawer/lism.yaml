@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F12
+  - {t: ▽, type: trans}
   Mark Layer:
   - Sft+Gui+4
   - F4
