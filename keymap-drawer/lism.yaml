@@ -121,7 +121,7 @@ layers:
   - .
   - '0'
   - {t: ▽, type: trans}
-  - {t: LANG2, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LANG1
