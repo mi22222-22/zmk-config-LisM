@@ -107,7 +107,7 @@ layers:
   - ↑
   - →
   - RGUI
-  - /
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
