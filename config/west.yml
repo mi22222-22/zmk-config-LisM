@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/caksoylar
     - name: 4mplelab
       url-base: https://github.com/4mplelab
+    - name: mi22222-22                   
+      url-base: https://github.com/mi22222-22
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -19,8 +21,11 @@ manifest:
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
-    - name: zmk-keyboards-LisM
+    - name: zmk-feature-charge-indicator
       remote: 4mplelab
+      revision: main
+    - name: zmk-keyboards-LisM
+      remote: mi22222-22 
       revision: main
       path: zmk-keyboards-LisM
   self:
