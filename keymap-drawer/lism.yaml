@@ -113,7 +113,7 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - '&mkp MB2'
-  - ''
+  - {t: ▽, type: trans}
   - ↓
   - ''
   - RALT
