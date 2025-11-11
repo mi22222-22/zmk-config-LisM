@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - Gui+W
   Number Layer:
-  - A
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
