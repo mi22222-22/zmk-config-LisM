@@ -37,7 +37,7 @@ layers:
   - Sft+Gui+4
   - {t: SPACE, h: Number Layer}
   - Number Layer
-  - Number Layer
+  - Default Layer
   - {t: ENTER, h: Number Layer}
   - Sft+Gui+4
   - F7
