@@ -122,7 +122,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: LANG2, type: held}
-  - ESCAPE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LANG1
   - {t: ▽, type: trans}
