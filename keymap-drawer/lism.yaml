@@ -97,7 +97,7 @@ layers:
   - F7
   - F10
   - RSHIFT
-  - '*'
+  - {t: ▽, type: trans}
   - {t: '4', h: LALT}
   - {t: '5', h: LSHIFT}
   - {t: '6', h: LGUI}
