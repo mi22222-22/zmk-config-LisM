@@ -95,7 +95,7 @@ layers:
   - F1
   - F2
   - F7
-  - F10
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '4', h: LALT}
