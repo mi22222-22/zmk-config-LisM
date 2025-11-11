@@ -94,7 +94,7 @@ layers:
   - {t: ▽, type: trans}
   - F1
   - F2
-  - F7
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
