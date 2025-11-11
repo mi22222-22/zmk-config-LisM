@@ -118,7 +118,7 @@ layers:
   - ''
   - RALT
   - {t: ▽, type: trans}
-  - .
+  - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
   - {type: held}
