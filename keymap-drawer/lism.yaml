@@ -126,7 +126,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+Ctl+TAB
+  - {t: ▽, type: trans}
   - Ctl+TAB
   - F12
   Mark Layer:
