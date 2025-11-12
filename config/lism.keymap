@@ -13,6 +13,13 @@
 
 &lt { quick-tap-ms = <300>; };
 
+&left_split {
+    scroller {
+        layers = <2>;
+        input-processors = <&zip_xy_to_scroll_mapper>;
+    };
+};
+
 / {
     macros {
         emoji: emoji_macro {
@@ -79,6 +86,7 @@
 &trans  &trans             &kp NUMBER_0         &trans             &trans  &trans    &trans  &trans    &trans    &trans    &trans     &trans
             >;
 
+            sensor-bindings = <&mouse_scl SCRL_DOWN SCRL_UP>,
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
         };
 
