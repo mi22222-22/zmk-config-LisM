@@ -86,8 +86,8 @@
 &trans  &trans             &kp NUMBER_0         &trans             &trans  &trans    &trans  &trans    &trans    &trans    &trans     &trans
             >;
 
-            sensor-bindings = <&mouse_scl SCRL_DOWN SCRL_UP>,
-            sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
+             sensor-bindings = <&mouse_scl SCRL_DOWN SCRL_UP>,
+                                <&encoder_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_3 {
