@@ -86,8 +86,7 @@
 &trans  &trans             &kp NUMBER_0         &trans             &trans  &trans    &trans  &trans    &trans    &trans    &trans     &trans
             >;
 
-             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>,
-                                <&tb_left SCRL_DOWN SCRL_UP>;
+             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_3 {
