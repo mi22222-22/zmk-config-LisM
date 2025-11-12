@@ -101,7 +101,7 @@ layers:
   - {t: '4', h: LALT}
   - {t: '5', h: LSHIFT}
   - {t: '6', h: LGUI}
-  - {t: ▽, type: trans}
+  - ''
   - '&mkp MB1'
   - ←
   - ↑
