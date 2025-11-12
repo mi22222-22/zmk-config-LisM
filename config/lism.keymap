@@ -58,10 +58,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q         &kp W       &kp E         &kp R           &kp T                        &kp Y        &kp U           &kp I         &kp O       &kp P
-&kp A         &mt LALT S  &mt LSHIFT D  &mt LGUI F      &mt LCTRL G                  &mt RCTRL H  &mt RGUI J      &mt RSHIFT K  &mt RALT L  &lt 3 SEMICOLON
-&kp Z         &kp X       &kp C         &kp V           &kp B                        &kp N        &kp M           &kp COMMA     &kp DOT     &kp SLASH
-&lt 4 DELETE  &tog 1      &lt 1 TAB     &kp LS(LG(N4))  &lt 2 SPACE  &mo 2    &mo 2  &lt 2 ENTER  &kp LS(LG(N4))  &kp F7        &kp F10     &lt 4 F12
+&kp Q         &kp W       &kp E         &kp R           &kp T                         &kp Y        &kp U           &kp I         &kp O       &kp P
+&kp A         &mt LALT S  &mt LSHIFT D  &mt LGUI F      &mt LCTRL G                   &mt RCTRL H  &mt RGUI J      &mt RSHIFT K  &mt RALT L  &lt 3 SEMICOLON
+&kp Z         &kp X       &kp C         &kp V           &kp B                         &kp N        &kp M           &kp COMMA     &kp DOT     &kp SLASH
+&lt 4 DELETE  &tog 1      &lt 1 TAB     &kp LS(LG(N4))  &lt 2 SPACE  &tog 2    &mo 2  &lt 2 ENTER  &kp LS(LG(N4))  &kp F7        &kp F10     &lt 4 F12
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -80,13 +80,13 @@
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&trans  &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &trans                    &kp F1    &kp F2    &trans    &trans     &trans
+&tog 0  &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &trans                    &kp F1    &kp F2    &trans    &trans     &trans
 &trans  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &trans                    &mkp MB1  &kp LEFT  &kp UP    &kp RIGHT  &trans
 &trans  &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &trans                    &mkp MB2  &trans    &kp DOWN  &trans     &trans
 &trans  &trans             &kp NUMBER_0         &trans             &trans  &trans    &trans  &trans    &trans    &trans    &trans     &trans
             >;
 
-             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_3 {
