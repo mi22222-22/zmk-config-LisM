@@ -36,7 +36,7 @@ layers:
   - {t: TAB, h: Mouse Layer}
   - Sft+Gui+4
   - {t: SPACE, h: Number Layer}
-  - Number Layer
+  - {t: Number Layer, h: toggle}
   - Number Layer
   - {t: ENTER, h: Number Layer}
   - Sft+Gui+4
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - Gui+W
   Number Layer:
-  - {t: ▽, type: trans}
+  - {t: Default Layer, h: toggle}
   - '7'
   - '8'
   - '9'
