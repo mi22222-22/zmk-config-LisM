@@ -73,10 +73,10 @@
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&tog 0  &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &kp A                     &kp F1    &kp F2    &trans    &trans     &trans
-&trans  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &none                     &mkp MB1  &kp LEFT  &kp UP    &kp RIGHT  &trans
-&trans  &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &trans                    &mkp MB2  &trans    &kp DOWN  &trans     &trans
-&trans  &trans             &kp NUMBER_0         &trans             &trans  &trans    &trans  &trans    &trans    &trans    &trans     &trans
+&tog 0  &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &msc MOVE_Y(0)                    &kp F1    &kp F2    &trans    &trans     &trans
+&trans  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &none                             &mkp MB1  &kp LEFT  &kp UP    &kp RIGHT  &trans
+&trans  &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &trans                            &mkp MB2  &trans    &kp DOWN  &trans     &trans
+&trans  &trans             &kp NUMBER_0         &trans             &trans          &trans    &trans  &trans    &trans    &trans    &trans     &trans
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
