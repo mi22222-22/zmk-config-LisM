@@ -15,7 +15,7 @@
 
 &left_split {
     scroller {
-        layers = <2>;
+        layers = <layer_2>;
         input-processors = <&zip_xy_to_scroll_mapper>;
     };
 };
