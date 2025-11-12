@@ -13,12 +13,7 @@
 
 &lt { quick-tap-ms = <300>; };
 
-&left_split {
-    scroller {
-        layers = <2>;
-        input-processors = <&zip_xy_to_scroll_mapper>;
-    };
-};
+
 
 / {
     macros {
