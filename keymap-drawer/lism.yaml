@@ -32,7 +32,7 @@ layers:
   - .
   - /
   - {t: BT, h: '0'}
-  - {t: Mouse Layer, h: toggle}
+  - A
   - {t: TAB, h: Mouse Layer}
   - Sft+Gui+4
   - {t: SPACE, h: Number Layer}
