@@ -51,10 +51,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q         &kp W       &kp E         &kp R           &kp T                         &kp Y        &kp U           &kp I         &kp O       &kp P
-&kp A         &mt LALT S  &mt LSHIFT D  &mt LGUI F      &mt LCTRL G                   &mt RCTRL H  &mt RGUI J      &mt RSHIFT K  &mt RALT L  &lt 3 SEMICOLON
-&kp Z         &kp X       &kp C         &kp V           &kp B                         &kp N        &kp M           &kp COMMA     &kp DOT     &kp SLASH
-&bt BT_SEL 0  &trans      &lt 1 TAB     &kp LS(LG(N4))  &lt 2 SPACE  &tog 2    &mo 2  &lt 2 ENTER  &kp LS(LG(N4))  &kp F7        &kp F10     &lt 4 F12
+&trans  &trans  &trans  &trans  &lt 2 MINUS                                          &lt 2 AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp QUESTION
+&kp H   &kp K   &kp M   &kp N   &kp S                                                &mt RCTRL H    &mt RGUI J            &mt RSHIFT K           &mt RALT L       &lt 3 SEMICOLON
+&kp T   &kp R   &kp W   &kp Y   &mt LANGUAGE_2 INT_KANA                              &kp N          &kp M                 &kp COMMA              &kp DOT          &kp SLASH
+&kp B   &kp C   &kp D   &trans  &kp SPACE                &kp ENTER    &kp BACKSPACE  &trans         &kp LS(LG(N4))        &kp F7                 &kp F10          &lt 4 F12
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -63,10 +63,10 @@
         layer_1 {
             display-name = "Mouse Layer";
             bindings = <
-&trans    &trans  &trans  &trans  &trans                    &kp SPACE     &kp RG(LEFT)  &kp RG(RIGHT)  &mkp MB3      &trans
-&mkp MB5  &trans  &trans  &trans  &trans                    &kp LG(UP)    &mkp MB1      &mkp MB2       &msc SCRL_UP  &msc SCRL_DOWN
-&mkp MB4  &trans  &trans  &trans  &trans                    &kp LG(DOWN)  &kp LEFT      &kp UP         &kp RIGHT     &trans
-&trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &kp DOWN       &trans        &kp LG(W)
+&trans          &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3                        &kp SPACE     &kp RG(LEFT)  &kp RG(RIGHT)  &mkp MB3      &trans
+&bt BT_CLR_ALL  &trans          &trans           &trans        &trans                              &kp LG(UP)    &mkp MB1      &mkp MB2       &msc SCRL_UP  &msc SCRL_DOWN
+&trans          &kp UP_ARROW    &trans           &trans        &trans                              &kp LG(DOWN)  &kp LEFT      &kp UP         &kp RIGHT     &trans
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &kp COMMA     &kp PERIOD    &trans  &trans        &trans        &kp DOWN       &trans        &kp LG(W)
             >;
         };
 
@@ -99,36 +99,6 @@
 &none        &none           &none  &none  &none                       &none         &none         &none         &none         &none
 &sys_reset   &none           &none  &none  &none                       &none         &none         &none         &none         &sys_reset
 &bootloader  &bt BT_CLR_ALL  &none  &none  &none       &none    &none  &none         &none         &none         &none         &bootloader
-            >;
-        };
-
-        layer_5 {
-            display-name = "Brank Layer";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_6 {
-            display-name = "Brank Layer";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_7 {
-            display-name = "Brank Layer";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
