@@ -2,11 +2,11 @@ layout: {zmk_keyboard: lism}
 layers:
   Default Layer:
   - {t: Mouse Layer, h: toggle}
-  - {t: ▽, type: trans}
+  - ESCAPE
   - '&mkp MB2'
   - '&mkp MB1'
-  - {t: '-', h: Number Layer}
-  - {t: '@', h: Number Layer}
+  - {t: '-', h: '2'}
+  - {t: '@', h: '2'}
   - (
   - )
   - '!'
@@ -49,8 +49,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: BT, h: '3'}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
   - '7'
   - '8'
   - '9'
@@ -59,24 +59,24 @@ layers:
   - RIGHT ARROW
   - {t: BT DISC, h: '2'}
   - {t: BT DISC, h: '3'}
-  - {t: BT DISC, h: '0'}
-  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
   - '4'
   - '5'
   - '6'
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ','
-  - PERIOD
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: BT DISC, h: '4'}
+  - BT CLR ALL
   - '1'
   - '2'
   - '3'
-  - {t: BT DISC, h: '0'}
-  - {t: BT DISC, h: '1'}
-  - {t: BT DISC, h: '2'}
+  - LEFT CONTROL
+  - LEFT WIN
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,11 +86,11 @@ layers:
   - /
   - '0'
   - '='
-  Number Layer:
-  - {t: Default Layer, h: toggle}
-  - '7'
-  - '8'
-  - '9'
+  '2':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -98,28 +98,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '4', h: LALT}
-  - {t: '5', h: LSHIFT}
-  - {t: '6', h: LGUI}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - ←
-  - ↑
-  - →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - {t: ▽, type: trans}
-  - '&mkp MB2'
-  - {t: ▽, type: trans}
-  - ↓
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -129,46 +107,27 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Device Layer:
-  - ''
-  - ''
-  - ''
-  - ''
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Reset
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Reset
-  - Boot
-  - BT CLR ALL
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Boot
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Device Layer: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', Reset, '', '', '', '', '', '', '', '', Reset, Boot, '', '', '', '',
+    '', '', '', '', '', '', Boot]
