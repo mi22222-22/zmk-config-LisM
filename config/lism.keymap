@@ -51,10 +51,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&tog 1  &trans  &mkp MB2  &mkp MB1  &lt 2 MINUS                              &lt 2 AT_SIGN            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp QUESTION
-&kp H   &kp K   &kp M     &kp N     &kp S                                    &kp A                    &kp I                 &kp U                  &kp D            &kp G
-&kp T   &kp R   &kp W     &kp Y     &kp Z                                    &kp E                    &kp O                 &kp X                  &kp B            &kp P
-&kp C   &kp L   &kp Q     &trans    &kp SPACE    &kp ENTER    &kp BACKSPACE  &mt INT_KANA LANGUAGE_2  &trans                &kp J                  &kp V            &kp F
+&tog 1  &kp ESCAPE  &mkp MB2  &mkp MB1  &lt 2 MINUS                              &lt 2 AT_SIGN            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp QUESTION
+&kp H   &kp K       &kp M     &kp N     &kp S                                    &kp A                    &kp I                 &kp U                  &kp D            &kp G
+&kp T   &kp R       &kp W     &kp Y     &kp Z                                    &kp E                    &kp O                 &kp X                  &kp B            &kp P
+&kp C   &kp L       &kp Q     &trans    &kp SPACE    &kp ENTER    &kp BACKSPACE  &mt INT_KANA LANGUAGE_2  &trans                &kp J                  &kp V            &kp F
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -63,32 +63,29 @@
         layer_1 {
             display-name = "Mouse Layer";
             bindings = <
-&trans          &kp UP_ARROW    &trans           &trans         &bt BT_SEL 3                     &bt BT_SEL 0   &bt BT_SEL 1   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &bt BT_DISC 2  &bt BT_DISC 3                    &bt BT_DISC 0  &bt BT_DISC 1  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
-&bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &trans         &trans                           &kp COMMA      &kp PERIOD     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
-&bt BT_DISC 0   &bt BT_DISC 1   &bt BT_DISC 2    &trans         &trans         &trans    &trans  &trans         &trans         &kp SLASH     &kp NUMBER_0  &kp EQUAL
+&trans            &kp UP_ARROW    &trans           &trans         &bt BT_SEL 3                     &bt BT_DISC 0  &bt BT_DISC 1   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9
+&kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &bt BT_DISC 2  &bt BT_DISC 3                    &bt BT_DISC 2  &bt BT_DISC 3   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
+&bt BT_SEL 0      &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3   &bt BT_SEL 4                     &bt BT_DISC 4  &bt BT_CLR_ALL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
+&kp LEFT_CONTROL  &kp LEFT_WIN    &kp LEFT_SHIFT   &trans         &trans         &trans    &trans  &trans         &trans          &kp SLASH     &kp NUMBER_0  &kp EQUAL
             >;
         };
 
         layer_2 {
-            display-name = "Number Layer";
             bindings = <
-&tog 0  &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &trans                    &trans    &trans    &trans    &trans     &trans
-&trans  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &trans                    &mkp MB1  &kp LEFT  &kp UP    &kp RIGHT  &trans
-&trans  &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &trans                    &mkp MB2  &trans    &kp DOWN  &trans     &trans
-&trans  &trans             &kp NUMBER_0         &trans             &trans  &trans    &trans  &trans    &trans    &trans    &trans     &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
-
-            sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_4 {
             display-name = "Device Layer";
             bindings = <
-&none        &none           &none  &none  &bt BT_CLR                  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&none        &none           &none  &none  &none                       &none         &none         &none         &none         &none
-&sys_reset   &none           &none  &none  &none                       &none         &none         &none         &none         &sys_reset
-&bootloader  &bt BT_CLR_ALL  &none  &none  &none       &none    &none  &none         &none         &none         &none         &bootloader
+&none        &none  &none  &none  &none                  &none  &none  &none  &none  &none
+&none        &none  &none  &none  &none                  &none  &none  &none  &none  &none
+&sys_reset   &none  &none  &none  &none                  &none  &none  &none  &none  &sys_reset
+&bootloader  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &bootloader
             >;
         };
     };
