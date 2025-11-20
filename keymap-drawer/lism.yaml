@@ -1,48 +1,48 @@
 layout: {zmk_keyboard: lism}
 layers:
   Default Layer:
-  - {t: '@', h: Mouse Layer}
-  - {t: number, h: toggle}
-  - AT
-  - '&mkp MB2'
-  - '&mkp MB1'
-  - TAB
-  - LEFT CONTROL
-  - {t: LEFT SHIFT, h: toggle}
-  - LEFT WIN
-  - ESCAPE
-  - Q
+  - {t: Q, h: Mouse Layer}
   - W
   - E
   - R
   - T
   - Y
   - U
-  - I
+  - {t: I, h: toggle}
   - O
   - P
+  - Q
   - A
   - S
   - D
   - F
-  - {t: INT KANA, h: LANGUAGE 2}
   - G
   - H
   - J
   - K
   - L
+  - {t: number, h: toggle}
+  - UP ARROW
   - Z
   - X
-  - C
+  - {t: INT KANA, h: LANGUAGE 2}
+  - {t: C, h: Ctl+C}
+  - {t: V, h: Ctl+V}
+  - B
+  - N
+  - M
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - SPACE
   - ENTER
   - BS
-  - V
+  - LEFT WIN
   - {t: ▽, type: trans}
-  - B
-  - N
-  - M
+  - LEFT SHIFT
+  - {t: TAB, h: '!'}
+  - {t: LEFT CONTROL, h: QUESTION}
   number:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -90,8 +90,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB2'
+  - '&mkp MB1'
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
