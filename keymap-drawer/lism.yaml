@@ -2,8 +2,8 @@ layout: {zmk_keyboard: lism}
 layers:
   Default Layer:
   - {t: Q, h: Mouse Layer}
-  - W
-  - E
+  - {t: W, h: INT KANA}
+  - {t: E, h: LANGUAGE 2}
   - R
   - T
   - Y
@@ -23,9 +23,9 @@ layers:
   - L
   - {t: number, h: toggle}
   - UP ARROW
-  - Z
+  - {t: Z, h: LEFT ALT}
   - X
-  - {t: INT KANA, h: LANGUAGE 2}
+  - '&mkp MB2'
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
   - B
