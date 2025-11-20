@@ -11,11 +11,11 @@ layers:
   - {t: I, h: toggle}
   - O
   - P
-  - Q
   - A
   - S
   - D
   - F
+  - '&mkp MB1'
   - G
   - H
   - J
@@ -54,8 +54,8 @@ layers:
   - '7'
   - '8'
   - '9'
-  - LPAR
-  - RPAR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -65,7 +65,7 @@ layers:
   - '5'
   - '6'
   - {t: ▽, type: trans}
-  - UP ARROW
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,9 +74,9 @@ layers:
   - '1'
   - '2'
   - '3'
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
