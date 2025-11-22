@@ -57,7 +57,7 @@
 &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans            &kp SPACE       &kp ENTER    &kp BACKSPACE  &mkp MB2     &trans       &kp LEFT_SHIFT  &mt EXCLAMATION TAB  &mt QUESTION LEFT_CONTROL
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&encoder_msc SCRL_RIGHT SCRL_LEFT>;
         };
 
         number {
