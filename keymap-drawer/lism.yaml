@@ -25,7 +25,7 @@ layers:
   - UP ARROW
   - {t: Z, h: LEFT ALT}
   - X
-  - '&mkp MB2'
+  - LEFT WIN
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
   - B
@@ -38,7 +38,7 @@ layers:
   - SPACE
   - ENTER
   - BS
-  - LEFT WIN
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - {t: TAB, h: '!'}
