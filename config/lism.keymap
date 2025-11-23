@@ -51,7 +51,7 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&lt 2 Q         &kp W           &kp E            &mt LANGUAGE_2 R  &mt INT_KANA T                              &kp Y        &kp U        &kt I           &kp O                &kp P
+&lt 2 Q         &kp W           &kp E            &mt LANGUAGE_2 R  &mt INT_KANA T                              &kp Y        &kp U        &kp I           &kp O                &kp P
 &kp A           &kp S           &kp D            &kp F             &mkp MB1                                    &kp G        &kp H        &kp J           &kp K                &kp L
 &tog 1          &kp UP_ARROW    &mt LEFT_ALT Z   &kp X             &kp LEFT_WIN                                &mt LC(C) C  &mt LC(V) V  &kp B           &kp N                &kp M
 &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans            &kp SPACE       &kp ENTER    &kp BACKSPACE  &mkp MB2     &trans       &kp LEFT_SHIFT  &mt EXCLAMATION TAB  &mt QUESTION LEFT_CONTROL
