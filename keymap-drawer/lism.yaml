@@ -6,11 +6,11 @@ layers:
   - E
   - {t: R, h: LANGUAGE 2}
   - {t: T, h: INT KANA}
-  - Y
+  - {t: Y, h: TAB}
   - U
-  - I
-  - O
-  - P
+  - {t: I, h: '-'}
+  - {t: O, h: QUESTION}
+  - {t: P, h: '!'}
   - A
   - S
   - D
@@ -21,11 +21,11 @@ layers:
   - J
   - K
   - L
-  - {t: number, h: toggle}
+  - LEFT SHIFT
   - UP ARROW
-  - {t: Z, h: LEFT ALT}
+  - Z
   - X
-  - LEFT WIN
+  - '&mkp MB2'
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
   - B
@@ -36,13 +36,13 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - SPACE
-  - ENTER
   - BS
-  - '&mkp MB2'
+  - ENTER
+  - {t: number, h: toggle}
   - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - {t: TAB, h: '!'}
-  - {t: LEFT CONTROL, h: QUESTION}
+  - LEFT WIN
+  - LEFT CONTROL
+  - ESC
   number:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
