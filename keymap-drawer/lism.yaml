@@ -3,14 +3,14 @@ layers:
   Default Layer:
   - {t: Q, h: Mouse Layer}
   - W
-  - E
+  - {t: E, h: LEFT CONTROL}
   - {t: R, h: LANGUAGE 2}
   - {t: T, h: INT KANA}
-  - {t: Y, h: TAB}
-  - U
-  - {t: I, h: '-'}
-  - {t: O, h: QUESTION}
-  - {t: P, h: '!'}
+  - {t: Y, h: '-'}
+  - {t: U, h: ','}
+  - {t: I, h: PERIOD}
+  - {t: O, h: '!'}
+  - {t: P, h: QUESTION}
   - A
   - S
   - D
@@ -41,7 +41,7 @@ layers:
   - {t: number, h: toggle}
   - {t: ▽, type: trans}
   - LEFT WIN
-  - LEFT CONTROL
+  - TAB
   - ESC
   number:
   - {t: ▽, type: trans}
@@ -49,8 +49,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - QUESTION
-  - '!'
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '5'
+  - '6'
   - '7'
   - '8'
   - '9'
@@ -59,21 +69,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - +
-  - /
-  - '4'
-  - '5'
-  - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
-  - '*'
-  - '1'
-  - '2'
-  - '3'
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -83,9 +82,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
-  - PERIOD
-  - '='
+  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   Mouse Layer:
   - {type: held}
   - {t: ▽, type: trans}
