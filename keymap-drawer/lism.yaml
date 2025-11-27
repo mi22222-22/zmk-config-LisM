@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - '&mkp MB1'
-  - {t: G, h: Sft+APOSTROPHE}
+  - {t: G, h: '['}
   - H
   - J
   - K
