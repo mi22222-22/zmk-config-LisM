@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - '&mkp MB1'
-  - {t: G, h: Sft+'}
+  - {t: G, h: Sft+2}
   - H
   - J
   - K
