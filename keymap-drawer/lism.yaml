@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - '&mkp MB1'
-  - {t: G, h: AT}
+  - {t: G, h: Sft+SQT}
   - H
   - J
   - K
@@ -42,7 +42,7 @@ layers:
   - {t: ▽, type: trans}
   - ESC
   - TAB
-  - {t: INT KANA, h: LANGUAGE 2}
+  - {t: LANGUAGE 2, h: INT KANA}
   number:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
