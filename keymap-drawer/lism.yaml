@@ -4,19 +4,19 @@ layers:
   - {t: Q, h: Mouse Layer}
   - W
   - {t: E, h: LEFT CONTROL}
-  - {t: R, h: LANGUAGE 2}
-  - {t: T, h: INT KANA}
+  - R
+  - T
   - {t: Y, h: '-'}
   - {t: U, h: ','}
   - {t: I, h: PERIOD}
   - {t: O, h: '!'}
   - {t: P, h: QUESTION}
-  - A
+  - {t: A, h: LEFT WIN}
   - S
   - D
   - F
   - '&mkp MB1'
-  - {t: G, h: '`'}
+  - {t: G, h: AT}
   - H
   - J
   - K
@@ -40,9 +40,9 @@ layers:
   - ENTER
   - {t: number, h: toggle}
   - {t: ▽, type: trans}
-  - LEFT WIN
-  - TAB
   - ESC
+  - TAB
+  - {t: INT KANA, h: LANGUAGE 2}
   number:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
