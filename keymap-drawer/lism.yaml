@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - '&mkp MB1'
-  - G
+  - {t: G, h: '@'}
   - H
   - J
   - K
