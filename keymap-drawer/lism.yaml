@@ -23,7 +23,7 @@ layers:
   - L
   - {t: Z, h: LEFT WIN}
   - X
-  - {t: C, h: Ctl+Z}
+  - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
   - '&mkp MB2'
   - B
