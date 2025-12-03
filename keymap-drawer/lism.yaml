@@ -5,13 +5,13 @@ layers:
   - W
   - {t: E, h: LEFT CONTROL}
   - R
-  - T
-  - {t: Y, h: PERIOD}
-  - {t: U, h: ','}
+  - {t: T, h: '['}
+  - {t: Y, h: QUESTION}
+  - {t: U, h: '!'}
   - {t: I, h: '-'}
-  - {t: O, h: '!'}
-  - {t: P, h: QUESTION}
-  - {t: A, h: LEFT WIN}
+  - {t: O, h: ','}
+  - {t: P, h: PERIOD}
+  - A
   - S
   - D
   - F
@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - Z
+  - {t: Z, h: LEFT WIN}
   - X
   - {t: C, h: Ctl+Z}
   - {t: V, h: Ctl+V}
@@ -35,8 +35,8 @@ layers:
   - ESCAPE
   - {t: INT KANA, h: LANGUAGE 2}
   - {t: ▽, type: trans}
-  - SPACE
   - BS
+  - SPACE
   - ENTER
   - {t: number, h: toggle}
   - {t: ▽, type: trans}
