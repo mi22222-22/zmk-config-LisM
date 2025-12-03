@@ -53,7 +53,7 @@
             bindings = <
 &lt 2 Q         &kp W       &mt LEFT_CONTROL E       &kp R        &mt LEFT_BRACKET T                          &mt QUESTION Y  &mt EXCLAMATION U  &mt MINUS I     &mt COMMA O     &mt PERIOD P
 &kp A           &kp S       &kp D                    &kp F        &mkp MB1                                    &kp G           &kp H              &kp J           &kp K           &kp L
-&mt LEFT_WIN Z  &kp X       &mt LC(Z) C              &mt LC(V) V  &mkp MB2                                    &kp B           &kp N              &kp M           &kp UP_ARROW    &kp TAB
+&mt LEFT_WIN Z  &kp X       &mt LC(C) C              &mt LC(V) V  &mkp MB2                                    &kp B           &kp N              &kp M           &kp UP_ARROW    &kp TAB
 &kp LEFT_SHIFT  &kp ESCAPE  &mt LANGUAGE_2 INT_KANA  &trans       &kp BACKSPACE       &kp SPACE    &kp ENTER  &tog 1          &trans             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
 
