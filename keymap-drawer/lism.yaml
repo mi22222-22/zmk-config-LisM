@@ -6,9 +6,9 @@ layers:
   - {t: E, h: LEFT CONTROL}
   - R
   - T
-  - {t: Y, h: '-'}
+  - {t: Y, h: PERIOD}
   - {t: U, h: ','}
-  - {t: I, h: PERIOD}
+  - {t: I, h: '-'}
   - {t: O, h: '!'}
   - {t: P, h: QUESTION}
   - {t: A, h: LEFT WIN}
@@ -16,33 +16,33 @@ layers:
   - D
   - F
   - '&mkp MB1'
-  - {t: G, h: '['}
+  - G
   - H
   - J
   - K
   - L
-  - LEFT SHIFT
-  - UP ARROW
   - Z
   - X
-  - '&mkp MB2'
-  - {t: C, h: Ctl+C}
+  - {t: C, h: Ctl+Z}
   - {t: V, h: Ctl+V}
+  - '&mkp MB2'
   - B
   - N
   - M
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - UP ARROW
+  - TAB
+  - LEFT SHIFT
+  - ESCAPE
+  - {t: INT KANA, h: LANGUAGE 2}
   - {t: ▽, type: trans}
   - SPACE
   - BS
   - ENTER
   - {t: number, h: toggle}
   - {t: ▽, type: trans}
-  - ESC
-  - TAB
-  - {t: INT KANA, h: LANGUAGE 2}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   number:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
