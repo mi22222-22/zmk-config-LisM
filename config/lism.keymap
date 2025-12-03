@@ -51,10 +51,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&lt 2 Q         &kp W       &mt LEFT_CONTROL E       &kp R        &kp T                                  &mt PERIOD Y  &mt COMMA U  &mt MINUS I     &mt EXCLAMATION O  &mt QUESTION P
-&mt LEFT_WIN A  &kp S       &kp D                    &kp F        &mkp MB1                               &kp G         &kp H        &kp J           &kp K              &kp L
-&kp Z           &kp X       &mt LC(Z) C              &mt LC(V) V  &mkp MB2                               &kp B         &kp N        &kp M           &kp UP_ARROW       &kp TAB
-&kp LEFT_SHIFT  &kp ESCAPE  &mt LANGUAGE_2 INT_KANA  &trans       &kp SPACE  &kp BACKSPACE    &kp ENTER  &tog 1        &trans       &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW
+&lt 2 Q         &kp W       &mt LEFT_CONTROL E       &kp R        &mt LEFT_BRACKET T                          &mt QUESTION Y  &mt EXCLAMATION U  &mt MINUS I     &mt COMMA O     &mt PERIOD P
+&kp A           &kp S       &kp D                    &kp F        &mkp MB1                                    &kp G           &kp H              &kp J           &kp K           &kp L
+&mt LEFT_WIN Z  &kp X       &mt LC(Z) C              &mt LC(V) V  &mkp MB2                                    &kp B           &kp N              &kp M           &kp UP_ARROW    &kp TAB
+&kp LEFT_SHIFT  &kp ESCAPE  &mt LANGUAGE_2 INT_KANA  &trans       &kp BACKSPACE       &kp SPACE    &kp ENTER  &tog 1          &trans             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
 
             sensor-bindings = <&encoder_msc SCRL_RIGHT SCRL_LEFT>;
