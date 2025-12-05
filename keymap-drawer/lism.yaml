@@ -2,19 +2,19 @@ layout: {zmk_keyboard: lism}
 layers:
   Default Layer:
   - {t: Q, h: Mouse Layer}
-  - W
-  - {t: E, h: LEFT CONTROL}
-  - R
-  - {t: T, h: '['}
+  - {t: W, h: Ctl+W}
+  - {t: E, h: Ctl+Sft+TAB}
+  - {t: R, h: Ctl+TAB}
+  - {t: T, h: Ctl+T}
   - {t: Y, h: QUESTION}
   - {t: U, h: '!'}
   - {t: I, h: '-'}
   - {t: O, h: ','}
   - {t: P, h: PERIOD}
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: Gui+Ctl+F4}
+  - {t: S, h: Ctl+Gui+LEFT ARROW}
+  - {t: D, h: Gui+Ctl+D}
+  - {t: F, h: Gui+Ctl+RIGHT ARROW}
   - '&mkp MB1'
   - G
   - H
@@ -22,18 +22,18 @@ layers:
   - K
   - L
   - {t: Z, h: LEFT WIN}
-  - X
+  - {t: X, h: LEFT CONTROL}
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
   - '&mkp MB2'
   - B
-  - N
+  - {t: N, h: Ctl+N}
   - M
   - UP ARROW
   - {t: INT KANA, h: LANGUAGE 2}
   - LEFT SHIFT
   - {t: number, h: toggle}
-  - TAB
+  - {t: TAB, h: '['}
   - {t: ▽, type: trans}
   - SPACE
   - BS
