@@ -11,7 +11,7 @@ layers:
   - {t: I, h: '-'}
   - {t: O, h: ','}
   - {t: P, h: PERIOD}
-  - {t: A, h: Gui+Ctl+F4}
+  - {t: A, h: Gui+TAB}
   - {t: S, h: Ctl+Gui+D}
   - {t: D, h: Gui+Ctl+LEFT ARROW}
   - {t: F, h: Gui+Ctl+RIGHT ARROW}
