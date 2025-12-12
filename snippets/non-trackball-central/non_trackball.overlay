@@ -4,6 +4,7 @@
 // split経由のリスナーを有効化
 &peripheral_listener {
     status = "okay";
+    device = <&trackball_peripheral>;
 
     scroller {
         layers = <2>;
