@@ -1,17 +1,6 @@
 #include "../non_trackball.overlay"
-#include <dt-bindings/zmk/input_transform.h>
 
 // split経由のリスナーを有効化
 &peripheral_listener {
     status = "okay";
-    device = <&trackball_peripheral>;
-
-    scroller {
-        layers = <2>;
-
-        input-processors =
-            <&zip_xy_to_scroll_mapper>,
-            <&zip_scroll_transform, INPUT_TRANSFORM_Y_INVERT>,
-            <&zip_scroll_scaler 1 16>;
-    };
-};
+  };
