@@ -54,7 +54,7 @@
 &lt 2 Q         &mt LC(W) W         &mt LC(LS(TAB)) E         &mt LC(TAB) R              &mt LC(T) T                              &mt QUESTION Y  &mt EXCLAMATION U  &mt MINUS I     &mt COMMA O     &mt PERIOD P
 &kp A           &mt LG(TAB) S       &mt LG(LC(LEFT_ARROW)) D  &mt LG(LC(RIGHT_ARROW)) F  &mkp MB1                                 &kp G           &kp H              &kp J           &kp K           &kp L
 &mt LEFT_WIN Z  &mt LEFT_CONTROL X  &mt LC(C) C               &mt LC(V) V                &mkp MB2                                 &kp B           &mt LC(N) N        &kp M           &kp UP_ARROW    &mt LANGUAGE_2 INT_KANA
-&kp LEFT_SHIFT  &tog 1              &mt LEFT_BRACKET TAB      &trans                     &kp SPACE    &kp BACKSPACE    &kp ENTER  &kp ESCAPE      &trans             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&mo 1           &kp LEFT_SHIFT      &mt LEFT_BRACKET TAB      &trans                     &kp SPACE    &kp BACKSPACE    &kp ENTER  &kp ESCAPE      &trans             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
