@@ -108,26 +108,26 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
+  - '&ALT_ARROW_up'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: BT DISC, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&ALT_ARROW_left'
+  - '&ALT_ARROW_down'
+  - '&ALT_ARROW_RIGHT'
   Device Layer: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', Reset, '', '', '', '', '', '', '', '', Reset, Boot, '', '', '', '',
     '', '', '', '', '', '', Boot]
