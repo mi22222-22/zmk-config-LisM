@@ -27,6 +27,34 @@
                 <&macro_release>,
                 <&kp CAPSLOCK>;
         };
+
+        ALT_ARROW_RIGHT: ALT_ARROW_RIGHT {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LALT &kp KP_N2 &kp KP_N6 &kp LEFT_ALT>;
+            label = "ALT_ARROW_RIGHT";
+        };
+
+        ALT_ARROW_left: ALT_ARROW_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LALT &kp KP_N2 &kp KP_N7 &kp LEFT_ALT>;
+            label = "ALT_ARROW_LEFT";
+        };
+
+        ALT_ARROW_up: ALT_ARROW_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LALT &kp KP_N2 &kp KP_N4 &kp LEFT_ALT>;
+            label = "ALT_ARROW_UP";
+        };
+
+        ALT_ARROW_down: ALT_ARROW_down {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LALT &kp KP_N2 &kp KP_N5 &kp LEFT_ALT>;
+            label = "ALT_ARROW_DOWN";
+        };
     };
 
     behaviors {
@@ -74,10 +102,10 @@
         scroll {
             display-name = "Mouse Layer";
             bindings = <
-&trans          &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3                     &kp N7  &kp N8  &kp N9  &trans  &trans
-&bt BT_CLR_ALL  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3                    &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans          &bt BT_SEL 4   &trans         &trans         &trans                           &kp N1  &kp N2  &kp N3  &trans  &trans
-&trans          &bt BT_DISC 4  &trans         &trans         &trans         &trans    &trans  &kp N0  &trans  &trans  &trans  &trans
+&trans          &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3                     &kp N7  &kp N8  &kp N9           &trans           &trans
+&bt BT_CLR_ALL  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3                    &kp N4  &kp N5  &kp N6           &trans           &trans
+&trans          &trans         &trans         &trans         &bt BT_SEL 4                     &kp N1  &kp N2  &kp N3           &ALT_ARROW_up    &trans
+&trans          &trans         &trans         &trans         &bt BT_DISC 4  &trans    &trans  &kp N0  &trans  &ALT_ARROW_left  &ALT_ARROW_down  &ALT_ARROW_RIGHT
             >;
         };
 
