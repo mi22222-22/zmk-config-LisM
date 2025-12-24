@@ -6,8 +6,8 @@ layers:
   - {t: E, h: Ctl+Sft+TAB}
   - {t: R, h: Ctl+TAB}
   - {t: T, h: Ctl+T}
-  - {t: Y, h: QUESTION}
-  - {t: U, h: '!'}
+  - Y
+  - U
   - {t: I, h: '-'}
   - {t: O, h: ','}
   - {t: P, h: PERIOD}
@@ -19,8 +19,8 @@ layers:
   - G
   - H
   - J
-  - K
-  - L
+  - {t: K, h: '!'}
+  - {t: L, h: QUESTION}
   - {t: Z, h: LEFT WIN}
   - {t: X, h: LEFT CONTROL}
   - {t: C, h: Ctl+C}
@@ -30,15 +30,15 @@ layers:
   - {t: N, h: Ctl+N}
   - M
   - UP ARROW
-  - {t: INT KANA, h: LANGUAGE 2}
-  - number
+  - {t: '*', h: (}
+  - ESCAPE
   - LEFT SHIFT
   - {t: TAB, h: '['}
   - {t: ▽, type: trans}
   - SPACE
   - BS
   - ENTER
-  - ESCAPE
+  - {t: INT KANA, h: LANGUAGE 2}
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
@@ -74,7 +74,7 @@ layers:
   - '3'
   - UP ARROW
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -88,43 +88,43 @@ layers:
   - RIGHT ARROW
   Mouse Layer:
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - '7'
+  - '8'
+  - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
+  - BT CLR ALL
   - {t: BT DISC, h: '0'}
   - {t: BT DISC, h: '1'}
   - {t: BT DISC, h: '2'}
   - {t: BT DISC, h: '3'}
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: BT DISC, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR ALL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB2'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
