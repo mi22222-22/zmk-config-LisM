@@ -12,9 +12,9 @@ layers:
   - {t: O, h: ','}
   - {t: P, h: PERIOD}
   - A
-  - {t: S, h: Gui+TAB}
-  - {t: D, h: Gui+Ctl+LEFT ARROW}
-  - {t: F, h: Gui+Ctl+RIGHT ARROW}
+  - {t: S, h: Gui+Ctl+LEFT ARROW}
+  - {t: D, h: Gui+Ctl+RIGHT ARROW}
+  - {t: F, h: Gui+TAB}
   - '&mkp MB1'
   - G
   - H
