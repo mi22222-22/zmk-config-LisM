@@ -4,9 +4,9 @@ layers:
   - {t: Q, h: Mouse Layer}
   - {t: W, h: Ctl+W}
   - {t: E, h: Ctl+Sft+TAB}
-  - {t: R, h: Ctl+Sft+TAB}
+  - {t: R, h: TAB}
   - {t: T, h: AltGr+LEFT ARROW}
-  - {t: Y, h: TAB}
+  - Y
   - U
   - {t: I, h: '-'}
   - {t: O, h: ','}
