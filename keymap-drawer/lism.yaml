@@ -33,7 +33,7 @@ layers:
   - ESCAPE
   - ESCAPE
   - LEFT SHIFT
-  - {t: TAB, h: '['}
+  - SPACE
   - {t: ▽, type: trans}
   - ENTER
   - BS
@@ -117,17 +117,17 @@ layers:
   - '3'
   - (
   - ASTRK
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Gui+LEFT ARROW
+  - Gui+Ctl+RIGHT ARROW
+  - Gui+TAB
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
   - Alt+LEFT ARROW
   - Ctl+N
   - '0'
   - {t: ▽, type: trans}
-  - Gui+Ctl+LEFT ARROW
-  - Ctl+Gui+RIGHT ARROW
-  - Gui+TAB
+  - LEFT ALT
+  - LEFT CONTROL
+  - TAB
   Device Layer: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', Reset, '', '', '', '', '', '', '', '', Reset, Boot, '', '', '', '',
     '', '', '', '', '', '', Boot]
