@@ -72,15 +72,15 @@ layers:
   - +
   - ''''
   - '"'
-  - '{'
-  - {t: ▽, type: trans}
+  - LESS THAN
+  - GREATER THAN
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '{'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
