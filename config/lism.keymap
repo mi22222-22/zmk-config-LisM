@@ -79,10 +79,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&lt 2 Q           &mt LC(W) W               &mt LC(LS(TAB)) E          &mt TAB R      &mt RA(LEFT_ARROW) T                              &kp Y                    &kp U        &mt MINUS I     &mt COMMA O        &mt PERIOD P
-&mt LEFT_SHIFT A  &mt LG(LC(LEFT_ARROW)) S  &mt LG(LC(RIGHT_ARROW)) D  &mt LG(TAB) F  &mkp MB1                                          &kp G                    &kp H        &kp J           &mt EXCLAMATION K  &mt QUESTION L
-&mt LEFT_WIN Z    &mt LEFT_CONTROL X        &mt LC(C) C                &mt LC(V) V    &mkp MB2                                          &kp B                    &mt LC(N) N  &kp M           &kp UP_ARROW       &mt LEFT_PARENTHESIS ASTERISK
-&kp ESCAPE        &kp LEFT_SHIFT            &mt LEFT_BRACKET TAB       &trans         &kp SPACE             &kp BACKSPACE    &kp ENTER  &mt LANGUAGE_2 INT_KANA  &trans       &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW
+&lt 2 Q     &mt LC(W) W     &kp E                 &kp R        &kp T                                             &kp Y                    &kp U   &kp I           &kp O           &mt MINUS P
+&kp A       &kp S           &kp D                 &kp F        &mkp MB1                                          &kp G                    &kp H   &kp J           &kp K           &kp L
+&kp Z       &kp X           &mt LC(C) C           &mt LC(V) V  &mkp MB2                                          &kp B                    &kp N   &kp M           &kp UP_ARROW    &kp ESCAPE
+&kp ESCAPE  &kp LEFT_SHIFT  &mt LEFT_BRACKET TAB  &trans       &kp ENTER  &kp BACKSPACE    &mt LEFT_BRACKET TAB  &mt LANGUAGE_2 INT_KANA  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
