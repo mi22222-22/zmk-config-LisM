@@ -3,41 +3,41 @@ layers:
   Default Layer:
   - {t: Q, h: Mouse Layer}
   - {t: W, h: Ctl+W}
-  - {t: E, h: Ctl+Sft+TAB}
-  - {t: R, h: TAB}
-  - {t: T, h: AltGr+LEFT ARROW}
+  - E
+  - R
+  - T
   - Y
   - U
-  - {t: I, h: '-'}
-  - {t: O, h: ','}
-  - {t: P, h: PERIOD}
-  - {t: A, h: LEFT SHIFT}
-  - {t: S, h: Gui+Ctl+LEFT ARROW}
-  - {t: D, h: Gui+Ctl+RIGHT ARROW}
-  - {t: F, h: Gui+TAB}
+  - I
+  - O
+  - {t: P, h: '-'}
+  - A
+  - S
+  - D
+  - F
   - '&mkp MB1'
   - G
   - H
   - J
-  - {t: K, h: '!'}
-  - {t: L, h: QUESTION}
-  - {t: Z, h: LEFT WIN}
-  - {t: X, h: LEFT CONTROL}
+  - K
+  - L
+  - Z
+  - X
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
   - '&mkp MB2'
   - B
-  - {t: N, h: Ctl+N}
+  - N
   - M
   - UP ARROW
-  - {t: '*', h: (}
+  - ESCAPE
   - ESCAPE
   - LEFT SHIFT
   - {t: TAB, h: '['}
   - {t: ▽, type: trans}
-  - SPACE
-  - BS
   - ENTER
+  - BS
+  - {t: TAB, h: '['}
   - {t: INT KANA, h: LANGUAGE 2}
   - {t: ▽, type: trans}
   - LEFT ARROW
