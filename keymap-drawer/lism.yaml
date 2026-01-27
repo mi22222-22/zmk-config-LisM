@@ -121,9 +121,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Sft+TAB
+  - Alt+LEFT ARROW
+  - Ctl+N
   - '0'
   - {t: ▽, type: trans}
   - Gui+Ctl+LEFT ARROW
