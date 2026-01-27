@@ -90,10 +90,10 @@
 
         number {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &kp AT     &kp CARET         &kp AMPERSAND      &kp RIGHT_BRACE    &kp PIPE
-&trans  &trans  &trans  &trans  &trans                    &kp UNDER  &kp EQUAL         &kp COLON          &kp RIGHT_BRACKET  &kp BACKSLASH
-&trans  &trans  &trans  &trans  &trans                    &kp PLUS   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACE     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans            &trans             &trans             &trans
+&trans  &trans  &trans  &trans  &trans                            &kp AT     &kp CARET         &kp AMPERSAND      &kp RIGHT_BRACE    &kp PIPE
+&trans  &trans  &trans  &trans  &trans                            &kp UNDER  &kp EQUAL         &kp COLON          &kp RIGHT_BRACKET  &kp BACKSLASH
+&trans  &trans  &trans  &trans  &trans                            &kp PLUS   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LESS_THAN      &kp GREATER_THAN
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACE  &trans     &trans            &trans             &trans             &trans
             >;
 
             sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
