@@ -95,39 +95,39 @@ layers:
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ','
+  - PERIOD
   - BT CLR ALL
-  - {t: BT DISC, h: '0'}
-  - {t: BT DISC, h: '1'}
-  - {t: BT DISC, h: '2'}
-  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '4'
   - '5'
   - '6'
+  - '!'
+  - QUESTION
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: BT, h: '4'}
   - '1'
   - '2'
   - '3'
-  - '&ALT_ARROW_up'
+  - (
+  - ASTRK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BT DISC, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
-  - '&ALT_ARROW_left'
-  - '&ALT_ARROW_down'
-  - '&ALT_ARROW_RIGHT'
+  - Gui+Ctl+LEFT ARROW
+  - Ctl+Gui+RIGHT ARROW
+  - Gui+TAB
   Device Layer: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', Reset, '', '', '', '', '', '', '', '', Reset, Boot, '', '', '', '',
     '', '', '', '', '', '', Boot]
