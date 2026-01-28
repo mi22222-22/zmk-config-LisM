@@ -107,9 +107,9 @@ layers:
   - '6'
   - '!'
   - QUESTION
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Gui+LEFT ARROW
+  - Gui+Ctl+RIGHT ARROW
+  - Gui+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -117,13 +117,13 @@ layers:
   - '3'
   - (
   - ASTRK
-  - Ctl+Gui+LEFT ARROW
-  - Gui+Ctl+RIGHT ARROW
-  - Gui+TAB
+  - {t: ▽, type: trans}
+  - Ctl+Sft+N
+  - Ctl+N
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
   - Alt+LEFT ARROW
-  - Ctl+N
+  - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
   - LEFT ALT
