@@ -82,7 +82,7 @@
 &lt 2 Q          &mt LC(W) W     &kp E        &kp R        &kp T                                             &kp Y                    &kp U   &kp I           &kp O           &mt MINUS P
 &kp A            &kp S           &kp D        &kp F        &mkp MB1                                          &kp G                    &kp H   &kp J           &kp K           &kp L
 &kp Z            &kp X           &mt LC(C) C  &mt LC(V) V  &mkp MB2                                          &kp B                    &kp N   &kp M           &kp UP_ARROW    &kp ESCAPE
-&lt 1 SEMICOLON  &kp LEFT_SHIFT  &kp SPACE    &trans       &kp ENTER  &kp BACKSPACE    &mt LEFT_BRACKET TAB  &mt LANGUAGE_2 INT_KANA  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&lt 1 SEMICOLON  &kp LEFT_SHIFT  &kp SPACE    &trans       &kp BACKSPACE  &kp ENTER    &mt LEFT_BRACKET TAB  &mt LANGUAGE_2 INT_KANA  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -102,10 +102,10 @@
         scroll {
             display-name = "Mouse Layer";
             bindings = <
-&trans                  &bt BT_SEL 0             &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                                   &kp N7  &kp N8  &kp N9        &kp COMMA             &kp PERIOD
-&bt BT_CLR_ALL          &bt BT_DISC 4            &trans        &trans        &trans                                         &kp N4  &kp N5  &kp N6        &kp EXCLAMATION       &kp QUESTION
-&kp LC(LG(LEFT_ARROW))  &kp LG(LC(RIGHT_ARROW))  &kp LG(TAB)   &trans        &trans                                         &kp N1  &kp N2  &kp N3        &kp LEFT_PARENTHESIS  &kp ASTRK
-&trans                  &kp LC(LS(N))            &kp LC(N)     &trans        &kp LC(LS(TAB))  &kp LA(LEFT_ARROW)    &trans  &kp N0  &trans  &kp LEFT_ALT  &kp LEFT_CONTROL      &kp TAB
+&trans                  &bt BT_SEL 0             &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3                                    &kp N7  &kp N8  &kp N9        &kp COMMA             &kp PERIOD
+&bt BT_CLR_ALL          &bt BT_DISC 4            &trans        &trans           &trans                                          &kp N4  &kp N5  &kp N6        &kp EXCLAMATION       &kp QUESTION
+&kp LC(LG(LEFT_ARROW))  &kp LG(LC(RIGHT_ARROW))  &kp LG(TAB)   &kp LC(LS(TAB))  &trans                                          &kp N1  &kp N2  &kp N3        &kp LEFT_PARENTHESIS  &kp ASTRK
+&trans                  &trans                   &trans        &trans           &kp LC(LS(N))  &kp LC(N)    &kp LA(LEFT_ARROW)  &kp N0  &trans  &kp LEFT_ALT  &kp LEFT_CONTROL      &kp TAB
             >;
         };
 
