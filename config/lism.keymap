@@ -85,7 +85,7 @@
 &lt 1 SEMICOLON  &kp LEFT_SHIFT  &kp SPACE    &trans       &kp BACKSPACE  &kp ENTER    &mt LEFT_BRACKET TAB  &mt LANGUAGE_2 INT_KANA  &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         number {
