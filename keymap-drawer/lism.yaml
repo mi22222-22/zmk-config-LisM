@@ -6,11 +6,11 @@ layers:
   - E
   - R
   - T
-  - Y
+  - {t: Y, h: '-'}
   - U
   - I
   - O
-  - {t: P, h: '-'}
+  - P
   - A
   - S
   - D
@@ -26,8 +26,8 @@ layers:
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
   - '&mkp MB2'
-  - B
-  - N
+  - {t: B, h: Ctl+Sft+N}
+  - {t: N, h: Ctl+N}
   - M
   - UP ARROW
   - ESCAPE
@@ -91,15 +91,15 @@ layers:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
+  - Gui+TAB
   - '7'
   - '8'
   - '9'
   - ','
   - PERIOD
   - BT CLR ALL
-  - {t: BT DISC, h: '4'}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
@@ -109,7 +109,7 @@ layers:
   - QUESTION
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+TAB
+  - {t: ▽, type: trans}
   - Ctl+Sft+TAB
   - {t: ▽, type: trans}
   - '1'
@@ -118,11 +118,11 @@ layers:
   - (
   - ASTRK
   - {t: ▽, type: trans}
-  - Gui+Ctl+LEFT ARROW
-  - Gui+Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
-  - Ctl+Sft+N
-  - Ctl+N
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+Gui+LEFT ARROW
+  - Ctl+Gui+RIGHT ARROW
   - Alt+LEFT ARROW
   - '0'
   - {t: ▽, type: trans}
