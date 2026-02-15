@@ -33,9 +33,9 @@ layers:
   - ESCAPE
   - {t: ;, h: number}
   - LEFT SHIFT
-  - SPACE
-  - {t: ▽, type: trans}
   - BS
+  - {t: ▽, type: trans}
+  - SPACE
   - ENTER
   - {t: TAB, h: '['}
   - {t: INT KANA, h: LANGUAGE 2}
