@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: lism}
 layers:
   Default Layer:
-  - {t: Q, h: number}
+  - {t: Q, h: Device Layer}
   - {t: W, h: Ctl+W}
   - E
   - R
@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: Mouse Layer}
+  - {t: A, h: number}
   - S
   - D
   - F
@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - Z
+  - {t: Z, h: Device Layer}
   - X
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
@@ -31,7 +31,7 @@ layers:
   - M
   - UP ARROW
   - ESCAPE
-  - {t: ;, h: number}
+  - LCTRL
   - LEFT SHIFT
   - BS
   - {t: ▽, type: trans}
@@ -43,8 +43,51 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
+  Mouse Layer:
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - Gui+TAB
+  - '7'
+  - '8'
+  - '9'
+  - ','
+  - PERIOD
+  - BT CLR ALL
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - '!'
+  - QUESTION
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - (
+  - ASTRK
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt+LEFT ARROW
+  - '0'
+  - {t: ▽, type: trans}
+  - Ctl+Gui+LEFT ARROW
+  - Ctl+Sft+TAB
+  - Ctl+Gui+RIGHT ARROW
   number:
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -54,7 +97,7 @@ layers:
   - '&'
   - '}'
   - '|'
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,48 +129,46 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Mouse Layer:
-  - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - Gui+TAB
-  - '7'
-  - '8'
-  - '9'
-  - ','
-  - PERIOD
-  - {t: BT CLR ALL, type: held}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - '6'
-  - '!'
-  - QUESTION
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+Sft+TAB
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - (
-  - ASTRK
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+Gui+LEFT ARROW
-  - Ctl+Gui+RIGHT ARROW
-  - Alt+LEFT ARROW
-  - '0'
-  - {t: ▽, type: trans}
-  - LEFT ALT
-  - LEFT CONTROL
-  - TAB
-  Device Layer: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', Reset, '', '', '', '', '', '', '', '', Reset, Boot, '', '', '', '',
-    '', '', '', '', '', '', Boot]
+  Device Layer:
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Reset
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Reset
+  - Boot
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Boot
