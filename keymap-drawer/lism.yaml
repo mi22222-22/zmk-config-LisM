@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: lism}
 layers:
   Default Layer:
-  - {t: Q, h: Mouse Layer}
+  - {t: Q, h: number}
   - {t: W, h: Ctl+W}
   - E
   - R
@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: Mouse Layer}
   - S
   - D
   - F
@@ -44,7 +44,7 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   number:
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,7 +74,7 @@ layers:
   - '"'
   - LESS THAN
   - GREATER THAN
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Mouse Layer:
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -97,7 +97,7 @@ layers:
   - '9'
   - ','
   - PERIOD
-  - BT CLR ALL
+  - {t: BT CLR ALL, type: held}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - {t: ▽, type: trans}
