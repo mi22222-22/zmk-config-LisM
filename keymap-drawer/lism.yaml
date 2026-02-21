@@ -72,14 +72,14 @@ layers:
   - '1'
   - '2'
   - '3'
-  - (
+  - Ctl+N
+  - Ctl+Sft+N
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ASTRK
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - )
   - Alt+LEFT ARROW
   - '0'
   - {t: ▽, type: trans}
