@@ -57,7 +57,7 @@ layers:
   - BT CLR ALL
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - BT CLR
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
   - '5'
