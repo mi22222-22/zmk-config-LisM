@@ -54,7 +54,7 @@ layers:
   - '9'
   - ','
   - PERIOD
-  - BT CLR ALL
+  - {t: ▽, type: trans}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - BT CLR ALL
