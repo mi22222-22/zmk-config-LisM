@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: lism}
 layers:
   Default Layer:
-  - {t: Q, h: Device Layer}
+  - {t: Q, h: Mouse Layer}
   - {t: W, h: Ctl+W}
   - E
   - R
@@ -26,8 +26,8 @@ layers:
   - {t: C, h: Ctl+C}
   - {t: V, h: Ctl+V}
   - '&mkp MB2'
-  - {t: B, h: Ctl+Sft+N}
-  - {t: N, h: Ctl+N}
+  - B
+  - N
   - M
   - UP ARROW
   - ESCAPE
@@ -44,11 +44,11 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   Mouse Layer:
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
-  - Gui+TAB
+  - Gui+Sft+S
   - '7'
   - '8'
   - '9'
@@ -84,7 +84,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - Ctl+Gui+LEFT ARROW
-  - Ctl+Sft+TAB
+  - Gui+TAB
   - Ctl+Gui+RIGHT ARROW
   number:
   - {t: ▽, type: trans}
@@ -130,7 +130,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Device Layer:
-  - {type: held}
   - ''
   - ''
   - ''
@@ -150,7 +149,8 @@ layers:
   - ''
   - ''
   - ''
-  - Reset
+  - ''
+  - {t: Reset, type: held}
   - ''
   - ''
   - ''
