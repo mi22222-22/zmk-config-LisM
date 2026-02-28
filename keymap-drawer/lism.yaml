@@ -79,7 +79,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ASTRK
-  - )
+  - (
   - Alt+LEFT ARROW
   - '0'
   - {t: ▽, type: trans}
